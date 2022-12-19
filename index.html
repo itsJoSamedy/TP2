@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JonathanTp2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- /////////////////////////////--Entête menu --////////////////////////////// -->
+    <header>
+
+        <!-- ////////////////////////////--Barre menu--/////////////////////////////// -->
+        <nav id='navigation' class="navigatioN">
+            <img src="Images/Twitch 2.png" alt="Collège de Maisonneuve" height="40px" />
+            <a href="#accueil">Accueil</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#tableau">Tableau</a>
+            <a href="#articles">Articles</a>
+            <a href="#inscription">Inscription</a>
+            <a href="#video">Video</a>
+            <a href="#pied-page">Pied de page</a>
+            <div class='zone-text'>
+                <input type="text" placeholder="Rechercher">
+            </div>
+            <img src="https://s2.svgbox.net/materialui.svg?ic=search&amp;color=fff" width="20" height="20" />
+
+        </nav>
+        <img src="Images//twitch1.png" alt="Collège de Maisonneuve" height="75px" id="accueil" />
+
+    </header>
+    <main>
+        <!-- ////////////////////////////--Section accueil--/////////////////////////////// -->
+        <div class="bg">
+            <nav id='deco' class="stream">
+
+                <a href="">Adin Ross</a>
+                <a href="">Kai Cenat</a>
+                <a href="">Amouranth</a>
+                <a href="">xQc</a>
+                <a href="">Pokimane</a>
+                <a href="">Mizkif</a>
+                <a href="">BruceDropEmOff</a>
+
+            </nav>
+        </div>
+        <section class="accueil2">
+
+
+            <h1>Accueil</h1>
+            <h1>Le mur du "Hall of Fame" Twitch</h1>
+            <h1>TP2</h1>
+            <h2>Jonathan Samedy</h2>
+            <p>Technique d'intégration Multimédia - 1W1-Mise en page Web - Collège Maisonneuve - Automne 2022</p>
+
+        </section>
+
+        <!-- ////////////////////////////--Section galerie--/////////////////////////////// -->
+        <section id="galerie">
+            <h1>Galerie</h1>
+            <figure class='annonce'>
+                <img src="Images//AdinTwitch.jpg" alt="départ">
+                <figcaption>ADIN ROSS</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//AmouranthTwitch.png" alt="départ">
+                <figcaption>Amouranth</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//BruceTwitch.jpg" alt="départ">
+                <figcaption>BruceDropEmOff</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//MizkifTwitch.jpg" alt="départ">
+                <figcaption>Mizkif</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//MythTwitch.jpg" alt="départ">
+                <figcaption>Myth</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//PokimaneTwitch.jpg" alt="départ">
+                <figcaption>Pokimane</figcaption>
+            </figure>
+            <figure class='annonce'>
+                <img src="Images//YourrageTwitch.jpg" alt="départ">
+                <figcaption>YouRageGaming</figcaption>
+            </figure>
+        </section>
+
+        <!-- ////////////////////////////--Section Inscription--/////////////////////////////// -->
+        <section id="inscription">
+            <h1>Inscription</h1>
+            <article class="inscri">
+
+                <fieldset id="globalform">
+                    <h1>Inscription au H.O.F de Twitch</h1>
+                    <form>
+                        <fieldset id="gauche">
+                            <label class="champ">Nom:<input class="champTrans" type="text" placeholder="Votre nom"
+                                    required /></label>
+                            <label class="champ">Prenom:<input class="champTrans" type="text" placeholder="Votre prenom"
+                                    required />
+                            </label>
+                            <label class="champ">Naissance:<input class="champTrans" type="date" required /></label>
+                            <label class="champ">Courriel:<input class="champTrans" type="email"
+                                    placeholder="Votre courriel" required /></label>
+                        </fieldset>
+                        <fieldset class="choix">
+                            <legend>Sexe:</legend>
+                            <label><input type="radio" name="choix" checked><span></span>Homme</label>
+                            <label><input type="radio" name="choix"><span></span>Femme</label>
+                        </fieldset>
+
+                        <fieldset id="droite">
+                            <label class="champ">Votre âge:<input class="champTrans" type="number" min="1" max="100"
+                                    placeholder="Votre âge" required /></label>
+                            <label class="champ">Téléphone:<input class="champTrans" type="tel"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="# de tel" required /></label>
+                        </fieldset>
+                        <fieldset id="valide">
+                            <input type="reset" />
+                            <input type="submit" value="Envoyer" />
+                        </fieldset>
+                    </form>
+                </fieldset>
+            </article>
+        </section>
+
+        <!-- ////////////////////////////--Section Video--/////////////////////////////// -->
+        <section id="video">
+            <h1>Video</h1>
+            <h2>Meilleurs Clips du mois</h2>
+            <video poster="Images/Thumbnail.PNG" height="600px" width="1000px" controls>
+                <source
+                    src="videos/Why Kai Cenat Streams are gold PART 2 _ Twitch Compilation.mp4"
+                    type="video/mp4">
+                Votre navigateur ne supporte pas le tag vidéo.
+            </video>
+        </section>
+
+        <!-- ////////////////////////////--Section Tableau--/////////////////////////////// -->
+        <section id="tableau">
+            <h1>Tableau</h1>
+
+            <table class="tableau">
+                <thead>
+                    <th colspan="3">Twitch Streamer</th>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Pérnom</th>
+                        <th>Chaine Twitch</th>
+                    </tr>
+                    <tr>
+                        <td>Ross</td>
+                        <td>Adin</td>
+                        <td>Adin Ross</td>
+                    </tr>
+                    <tr>
+                        <td>N/A</td>
+                        <td>Joshua</td>
+                        <td>YourRage</td>
+                    </tr>
+                    <tr>
+                        <td>Cenat</td>
+                        <td>Kai</td>
+                        <td>Kai Cenat</td>
+                    </tr>
+                </thead>
+            </table>
+
+        </section>
+
+
+        <!-- ////////////////////////////--Section Articles--/////////////////////////////// -->
+        <section id="articles">
+            <h1>Articles</h1>
+            <article class="principal">
+                <section>
+                    <h2>Adin Ross</h2>
+                    <p>
+                        Non consectetur molestiae fugit veritatis velit? Tenetur, rerum
+                        commodi quam incidunt enim vitae architecto explicabo voluptate,
+                        facilis deleniti quae autem perferendis unde qui soluta fugit. Qui
+                        itaque voluptate temporibus magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit accusantium ipsa illum ratione assumenda labore. Perspiciatis quod officiis
+                        similique, velit ad maiores. Sint expedita atque suscipit laboriosam minima ipsa alias. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore consequatur architecto
+                        consequuntur libero maxime similique, accusamus ex possimus aut modi fugiat ut error iste, earum
+                        debitis eius, laborum unde?
+                    </p>
+                </section>
+                <figure>
+                    <img src="Images//AdinArticle.PNG" alt="" height="600px" />
+                    <figcaption>
+                        <h2>Adin Ross</h2>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="principal">
+                <section>
+                    <h1>Kai Cenat</h1>
+                    <p>
+                        Non consectetur molestiae fugit veritatis velit? Tenetur, rerum
+                        commodi quam incidunt enim vitae architecto explicabo voluptate,
+                        facilis deleniti quae autem perferendis unde qui soluta fugit. Qui
+                        itaque voluptate temporibus magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit accusantium ipsa illum ratione assumenda labore. Perspiciatis quod officiis
+                        similique, velit ad maiores. Sint expedita atque suscipit laboriosam minima ipsa alias. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore consequatur architecto
+                        consequuntur libero maxime similique, accusamus ex possimus aut modi fugiat ut error iste, earum
+                        debitis eius, laborum unde?
+                    </p>
+                </section>
+                <figure>
+                    <img src="Images//KaiArticles.PNG" alt="" height="600px" />
+                    <figcaption>
+                        <h2>Kai Cenat</h2>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="principal">
+                <section>
+                    <h1>xQc</h1>
+                    <p>
+                        Non consectetur molestiae fugit veritatis velit? Tenetur, rerum
+                        commodi quam incidunt enim vitae architecto explicabo voluptate,
+                        facilis deleniti quae autem perferendis unde qui soluta fugit. Qui
+                        itaque voluptate temporibus magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit accusantium ipsa illum ratione assumenda labore. Perspiciatis quod officiis
+                        similique, velit ad maiores. Sint expedita atque suscipit laboriosam minima ipsa alias. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore consequatur architecto
+                        consequuntur libero maxime similique, accusamus ex possimus aut modi fugiat ut error iste, earum
+                        debitis eius, laborum unde?
+                    </p>
+                </section>
+                <figure>
+                    <img src="Images//xQcArticle.PNG" alt="" height="600px" />
+                    <figcaption>
+                        <h2>xQc</h2>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <!-- ////////////////////////////--Section Pied de page--/////////////////////////////// -->
+
+        </section>
+    </main>
+    <footer>
+        <section id="pied-page">
+            <h1>Pied de page</h1>
+            <div>1W1 - Mise en page Web | Techniques d'intégration Multimdédia | Collège de Maisonneuve | Avis de
+                confidentialité | Privacy Notice
+                3800 R. Sherbrooke E, Montréal, QC H1X 2A2</div>
+
+            <div class="sociaux">
+                <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff" width="32" height="32" alt="" />
+
+                <img src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff" width="32" height="32" alt="" />
+
+                <img src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff" width="32" height="32" alt="" />
+                <img src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff" width="32" height="32" alt="" />
+
+            </div>
+
+        </section>
+    </footer>
+
+</body>
+
+</html>
